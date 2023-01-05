@@ -91,14 +91,13 @@ height="2.945744750656168in"}
 <https://www.youtube.com/watch?v=tIpKfDc295M&feature=youtu.be>
 
 ## Gradient Descent
+<img src="./LearnMLImages/media/gradientdescent1.png" style="zoom:40%;" />
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/gradientdescent1.png" style="zoom:40%;" />
+<img src="./LearnMLImages/media/gradientdescent2.png" style="zoom:30%;" />
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/gradientdescent2.png" style="zoom:30%;" />
+![image-20220608083926492](./LearnMLImages/media/gradientdescent3.png)
 
-![image-20220608083926492](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/gradientdescent3.png)
-
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/gradientdescent4.png" alt="image-20220608083958423" style="zoom:40%;" />
+<img src="./LearnMLImages/media/gradientdescent4.png" alt="image-20220608083958423" style="zoom:40%;" />
 
 https://www.jianshu.com/p/c7e642877b0e
 
@@ -106,7 +105,7 @@ https://jums.club/pdf/Gradient_Descent.pdf
 
 ## Sign function
 
-![](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/signfunc.png)
+![](./LearnMLImages/media/signfunc.png)
 
 
 
@@ -222,7 +221,7 @@ $$
 $$
 Then **Gradient Descent** helps to find the global optimal/minimal of the cost function
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/gradientdescent5.png" alt="image-20220616010014141" style="zoom:30%;" />
+<img src="./LearnMLImages/media/gradientdescent5.png" alt="image-20220616010014141" style="zoom:30%;" />
 $$
 Repeat\ for\ each\ training\ data\ [x^{(i)}, y^{(i)}]:\\
 w:=w-\alpha\frac{dJ(w,b)}{dw}\\
@@ -295,15 +294,15 @@ The cost function of Log loss win because the cost function is convex that has a
 
 #### Mean Square Error  (MSE- L2) also called L2 regularization [link](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html#mse-l2)
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/mse-L2.png" alt="img" style="zoom:67%;" />
+<img src="./LearnMLImages/media/mse-L2.png" alt="img" style="zoom:67%;" />
 
 #### Mean Absolute Error (MAE- L1) also called L1 regularization [link](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html#mae-l1)
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/mae-L1.png" alt="img" style="zoom:67%;" />
+<img src="./LearnMLImages/media/mae-L1.png" alt="img" style="zoom:67%;" />
 
 #### Huber Loss [link](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html#huber): a combination of MAE and MSE (L1-L2)
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/huber.png" alt="img" style="zoom:67%;" />
+<img src="./LearnMLImages/media/huber.png" alt="img" style="zoom:67%;" />
 
 #### RMSE [link](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html#rmse-1)
 
@@ -323,11 +322,11 @@ Activation Functions are **decision making units of neural networks**. They calc
 
 The role of the Activation Function is to derive output from a set of input values fed to a node (or a layer).
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/activationfunc2.png" alt="Activation function in Neural Networks" style="zoom:67%;" />
+<img src="./LearnMLImages/media/activationfunc2.png" alt="Activation function in Neural Networks" style="zoom:67%;" />
 
 
 
-![Neural Networks Activation Functions](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/activationfunc.png)
+![Neural Networks Activation Functions](./LearnMLImages/media/activationfunc.png)
 
 
 
@@ -341,7 +340,7 @@ The role of the Activation Function is to derive output from a set of input valu
 
 Sigmoid functions have domain of all real numbers, with return value monotonically increasing most often from 0 to 1 or alternatively from −1 to 1, depending on convention.
 
-![](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/sigmoidfunc.png)
+![](./LearnMLImages/media/sigmoidfunc.png)
 
 ### Logistic Function / Inverse-Logit Function
 
@@ -362,7 +361,7 @@ height="3.547222222222222in"}
 
 $$f(x)=x^{+}=\max(0,x)$$
 
-<img src="/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/ReLU_and_GELU.png" alt="img" style="zoom:20%;" />
+<img src="./LearnMLImages/media/ReLU_and_GELU.png" alt="img" style="zoom:20%;" />
 
 ## Sigmoid vs ReLU
 
@@ -1453,9 +1452,9 @@ $$\ln(CCDF) = - \alpha\left\lbrack \ln(x) - \ln\left( x_{m} \right) \right\rbrac
 
  A Fourier transform converts a signal from time to frequency domain—it’s a very common way to extract features from audio signals or other time series such as sensor data.
 
-![Fourier transform – Isaac's science blog](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/fouriertrans.png)
+![Fourier transform – Isaac's science blog](./LearnMLImages/media/fouriertrans.png)
 
-![How Fourier Transform (FT) is Used in Deep Learning | by Yaokun Lin @  MachineLearningQuickNotes | Apr, 2022 | Level Up Coding](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/fouriertrans2.png)
+![How Fourier Transform (FT) is Used in Deep Learning | by Yaokun Lin @  MachineLearningQuickNotes | Apr, 2022 | Level Up Coding](./LearnMLImages/media/fouriertrans2.png)
 
 https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
 
@@ -2035,9 +2034,9 @@ height="3.954331802274716in"}
 
 Another example
 
-![](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/DTW4.png)
+![](./LearnMLImages/media/DTW4.png)
 
-![image-20220606131424406](/Users/chenxishi/Google Drive/Learn/LearnMLImages/media/DTW5.png)
+![image-20220606131424406](./LearnMLImages/media/DTW5.png)
 
 Similar to [Longest common sequence](#dynamic-programming)
 
